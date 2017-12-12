@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="" method="" class="form">
+  <ul class="form__list">
+    <li class="form__item form__item-text">
+      <label for="name">Name</label>
+      <input id="name" class="field" type="text" placeholder="enter your name">
+    </li>
+    <li class="form__item form__item-text">
+      <label for="surname">Surname</label>
+      <input id="surname" class="field" type="text" placeholder="enter you surname">
+    </li>     
+    <li class="form__item form__item-text">
+      <input id="phone" class="field" type="tel" placeholder="phone number">
+    </li>
+    <li class="form__item form__item-text">
+      <input id="email" class="field" type="mail" placeholder="email">
+    </li>
+    
+    <li class="form__item">
+      <select name="" id="country" class="countries-list field">
+        <option class="countries-list__item" value="empty" selected disabled>Choose your country</option>
+        <option class="countries-list__item" value="Austria">Austria</option>
+        <option class="countries-list__item" value="Burundi">Burundi</option>
+        <option class="countries-list__item" value="Canada">Canada</option>
+        <option class="countries-list__item" value="Japan">Japan</option>
+        <option class="countries-list__item" value="Russia">Russia</option>
+        <option class="countries-list__item" value="Switzerland">Switzerland</option>
+        <option class="countries-list__item" value="Thailand">Thailand</option>
+        <option class="countries-list__item" value="Ukraine">Ukraine</option>
+        <option class="countries-list__item" value="Venezuela">Venezuela</option>
+        <option class="countries-list__item" value="Zimbabwe">Zimbabwe</option>
+      </select>
+    </li>
+    <li class="form__item form__item-gender">
+      <input id="man" class="" type="radio" name="gender">
+      <label for="man">man</label>
+      <input id="woman" class="" type="radio" name="gender">
+      <label for="woman">woman</label>
+    </li>
+    <li class="form__item form__item-age">
+      <label for="age">Age</label>
+      <input id="age" class="" type="number">
+    </li>
+  </ul>
+  <button class="btn btn-submit">Submit</button>
+</form>
+
+<script src="javascript.js"></script>
+</body>
+</html>

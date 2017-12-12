@@ -1,0 +1,104 @@
+body {
+  margin-top: 20vh;
+}
+
+.form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: linear-gradient(45deg, #603CBA, #9F00A7);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.form input, .form select, .form .btn {
+  outline: none;
+  border-style: none;
+}
+
+.form input:focus,
+.form select:focus {
+  box-shadow: 0px 0px 20px  #FF0097;
+}
+
+.form__list {
+  list-style: none;
+  magrin: 0;
+  padding: 0;
+}
+
+.form__item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form__item label {
+  color: #fff;
+}
+
+.form__item-text label {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__item-gender label {
+  margin-right: 15px;
+}
+
+.form__item input[type="text"],
+.form__item input[type="mail"],
+.form__item input[type="tel"],
+.form__item input[type="number"] {
+  font-size: 16px;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #f9edcc;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.form__item input[type="text"]:hover,
+.form__item input[type="mail"]:hover,
+.form__item input[type="tel"]:hover,
+.form__item input[type="number"]:hover {
+  background-color: #d7e2e2;
+}
+
+.form__item input[type="text"]:focus,
+.form__item input[type="mail"]:focus,
+.form__item input[type="tel"]:focus,
+.form__item input[type="number"]:focus {
+  color: white;
+  background-color: #674d5f;
+}
+
+.form__item-age input[type="number"] {
+  width: 20%;
+  border-radius: 15px;
+}
+
+.btn {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 5px;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #fc9e2a;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #674d5f;
+  box-shadow: 0px 0px 1px #000;
+}
+
+.btn:active {
+  box-shadow: inset 0px 0px 5px 1px #000;
+}
